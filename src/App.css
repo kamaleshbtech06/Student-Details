@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  background-color: #2b3a42;
+  padding: 14px 24px;
+  display: flex;
+  gap: 32px;
+}
+
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  padding: 24px;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+
+.student-table th,
+.student-table td {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.application-form {
+  margin-top: 16px;
+  max-width: 320px;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form-row label {
+  width: 100px;
+}
+
+.form-row input {
+  flex: 1;
+  padding: 4px 6px;
+}
+
+button {
+  padding: 6px 16px;
+  cursor: pointer;
+}
